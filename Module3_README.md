@@ -109,7 +109,8 @@ For raw staged data, a Synapse External Table was created. Specified the format,
 
   3.Create the external table.  
   The external table maps to the data files stored in Azure Data Lake. This allows us to query the data without physically loading it into the dedicated SQL pool.  
-  ![image](https://github.com/user-attachments/assets/08b8b1a0-9381-4858-9643-127216e8c828)
+  ![image](https://github.com/user-attachments/assets/dbe4656b-3a9b-47cb-aa3a-a46053482d9d)  
+
 
 
 Step 3: Data Exploration with external table.  
