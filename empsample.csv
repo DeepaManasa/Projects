@@ -1,0 +1,12 @@
+ID,Name,Age,Salary,Department,Performance
+1,Alice,30,70000,HR,Excellent
+2,Bob,25,,Engineering,Good
+3,Charlie,35,120000,Marketing,Very Good
+4,David,,90000,HR,Good
+5,Eva,28,85000,Engineering,Excellent
+6,Frank,40,105000,Marketing,Good
+7,Grace,38,,HR,Poor
+8,Hank,45,98000,Engineering,Very Good
+9,Ivy,31,74000,HR,Good
+10,Jack,29,80000,Marketing,Excellent
+11,    kerry   ,NaN,80000,Marketing,Excellent
