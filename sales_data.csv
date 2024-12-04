@@ -1,0 +1,101 @@
+Transaction ID,Customer Name,Product,Quantity,Price Per Unit,Transaction Date,Region
+c36c12af-d6ef-485d-b81a-4dfd5016acba,Darlene House,Laptop ,10.0,372.0,2024-03-01,SOUTH
+6e0af861-fe73-43ff-8611-4eb004720893,Stuart Barron,Laptop,,$481,04-21-2024,North
+a359713b-cad7-4e1a-8e9d-312ac06e65d8,Maureen Lyons,Tablet ,-2.0,490.0,2024-06-03,east 
+fed09892-d3e8-492e-a064-2e727579b5ac,John Lee,laptop,,345,04-03-2024,South
+998d01e2-7be6-4456-9513-954309839c04,Daniel Walls,LapTop,7.0,223,09/06/2024,south 
+0c0c249a-20f3-422d-9699-532eee6d8874,Nicholas Cruz,Laptop,-1.0,$384,10-10-2024,North
+8ec976ad-bd94-4694-983f-8f31d3dd5fbd,Andrea Morales,laptop,3.0,$361,24/06/2024,east 
+c8576bd0-0b3c-4d63-b963-67bbcf1674a8,Ethan Thomas,Laptop,,340.0,29/09/2024,SOUTH
+b01682d6-8b67-4156-bfee-5142b19ffae7,Ann Thomas,Laptop ,-1.0,379.0,26/07/2024,east 
+dfd452cd-0a75-43d9-91f6-b7f2002af969,Paul Smith,Tablet ,,127.0,25/03/2024,WEST
+e56b692d-0096-4e4c-9145-bcc22a8481b8,Todd Sandoval,laptop,,246.0,2024-06-08,north 
+778154ce-86c4-460b-b3e4-20a065837331,Colton Cole,LapTop,,419,06-02-2024,EAST
+450bb9ce-5f67-4c9f-9569-9847a97641dd,Erica Nichols,Laptop ,,63.0,2024-11-30,north 
+ae8ea305-06b2-428e-8bf9-c2c606d07170,Lisa Fowler,Laptop ,9.0,295,11-11-2024,NORTH
+34be067d-e014-43a4-a40b-80a88483cf91,Christy Garcia,LapTop,3.0,$103,2024-10-12,north 
+f116a929-0210-4c4a-818d-6486816b892b,Monica Lawson,TABLET,-1.0,496.0,12/06/2024,North
+c0869c82-9d9d-4374-b14a-ca8430def93e,Brandon Parker,LapTop,-4.0,140,03-21-2024,NORTH
+a4522c8a-9978-4f6d-946e-61d02b744326,Katherine Wright,Tablet ,,364,02-29-2024,north 
+6f15509e-ab1a-4d7a-98a4-45ec378a0192,Erin Snyder,Laptop,-1.0,248.0,05-16-2024,West
+bb9f3d4f-f4ce-4412-aaf5-fe5420ace73b,Jessica Huffman,laptop,2.0,105,01/03/2024,West
+ab7e6e8d-3de8-4c6f-a1a8-ce7c900bfbbd,Johnathan Cain,Laptop ,-4.0,326,2024-10-04,SOUTH
+97e5b7d3-01c6-404a-b7f0-425346a2a4f0,Linda Summers,TABLET,9.0,$352,2024-08-12,east 
+d8212ec3-6e8b-4116-aaf9-525c7ab2bdf4,Brenda Wolfe,Laptop,,$271,04/08/2024,North
+6b3482ab-2487-410d-b453-d8370415f78a,Jacob Kelly,TABLET,,$327,30/09/2024,East
+8c876e75-efde-4036-a8d4-8af30a45bd3f,Andrea Taylor,Laptop ,-1.0,121.0,24/09/2024,south 
+2a092da0-c13f-4f0e-8e04-464839f0b5d1,Stephen Smith,Laptop ,8.0,460,11-09-2024,east 
+323ce06c-96b9-4a0f-8d6f-120cb214e828,Gerald Park,TABLET,-2.0,291.0,20/02/2024,west 
+6c8fd853-a203-4a61-b5c0-2c499ed9edb8,Christopher Nelson,Tablet ,8.0,$130,05-13-2024,West
+0141fa3c-b04a-4b31-836a-0eef021aad2f,Thomas Clayton,Laptop ,-3.0,329.0,11-02-2024,north 
+4828255e-25ec-41ac-8390-90ac920c32ea,Danny Lee,Tablet,,468,2024-11-05,east 
+6dd4873c-d1f7-4910-8833-fbf33b627a45,Mark Jones,LapTop,6.0,349.0,22/05/2024,east 
+a82f02c8-6048-4dcb-9693-520bcbbfa4e8,Vincent Steele Jr.,Tablet,7.0,193,03-12-2024,East
+30d33ebd-3e79-47a3-b246-ab3a92fd376b,Chase Washington,Laptop,3.0,415,04-05-2024,SOUTH
+003b7acc-d4d4-4385-99cf-5b1a7137bd3e,Brandon Johnson,Laptop,,319,23/11/2024,west 
+4895baa8-c634-4250-9c12-ed836fdee69f,Mary Logan DVM,laptop,7.0,488,2024-06-20,North
+c3ffeecf-3041-4389-8f36-e2754d47d314,Nicole Dawson,TABLET,0.0,$246,06-27-2024,east 
+fee3e6f8-d80b-4a69-b559-d2c8929c8df4,Jeffrey Horton,Tablet,3.0,287.0,2024-10-09,North
+ea3864be-7b7d-4ad4-b59a-7e1ba2dfe785,Ryan Simpson,Tablet,,92.0,08-28-2024,north 
+f4ecb27e-1eeb-41a6-a6a0-c2f5e5fafb0a,Michael Jones,Tablet ,8.0,229,2024-04-15,South
+101fa00f-a49e-455b-8e31-1550563078e0,Paul Hodges,Laptop ,,371,2024-07-05,EAST
+87847a11-1711-4f5f-a91e-0454a9ad80f0,Christopher Curtis,LapTop,-4.0,389.0,2024-10-15,EAST
+7ca82747-caef-416f-a07e-abd09b595196,Cathy Thomas,Laptop,,410.0,01-18-2024,north 
+9ac77cbe-382f-4a56-9f58-c812f4d24c26,Amanda Thomas,laptop,-1.0,73,12/04/2024,NORTH
+782d80bc-f5c0-42fd-b72c-850795d949af,Mario Ford,Laptop,,499,13/03/2024,East
+80512132-f226-4347-accf-ad7878a16fed,Edward Bond,TABLET,,186,17/01/2024,East
+41b98e56-276e-4b12-a532-7ed77c39aa8d,Daniel Martinez,laptop,-5.0,$332,02-12-2024,West
+dcf93957-7886-4f7f-b412-c125d1a662a0,Sara Ramirez,LapTop,,$127,2024-02-19,EAST
+9ced51b7-a0e0-4219-91bb-b6f9f839870d,Kenneth Ellis,LapTop,-1.0,$393,05-17-2024,west 
+bdac9f79-a06c-4e7c-b249-6cc8351d0353,Mariah Anderson,Tablet,-5.0,255,06-18-2024,WEST
+c6f8e471-9fa9-47f8-b7ae-32d24bb45634,Dalton Austin,laptop,,$153,23/01/2024,south 
+e0f9d657-b898-4b5a-9481-4a3577ce644a,Scott Moore,Laptop ,3.0,$409,04/11/2024,WEST
+5449f262-7965-408a-a9e1-a0caa375d52e,Stephen Williamson,Laptop ,1.0,118.0,2024-08-12,EAST
+3a40ec1e-51a4-4fa8-a126-fb86458235fd,Kelly Beard,LapTop,-1.0,67,04-01-2024,North
+7340fc8a-92c4-4490-90a6-52af72ef58e7,Glen Alvarado,laptop,6.0,$61,04/03/2024,west 
+9ca5dd2b-5a4e-4143-bcc2-ce2ecb34e9f1,George Gray,Laptop ,,$130,30/04/2024,North
+03138bf0-8b70-478c-bafe-166c3268162b,Mrs. Mary Blankenship,Laptop,8.0,307,26/02/2024,North
+4829e024-e9e8-4a5b-82de-f9ae5a6f86de,Sierra Waters,Laptop ,,273,04-15-2024,East
+0931c839-d9a6-4b51-9715-30a7520a9dbf,Derek Hernandez,LapTop,10.0,$327,01-31-2024,NORTH
+7e7ce8e5-feb4-4947-9869-2547ba405574,Dr. Daniel King DDS,Laptop,-5.0,107,28/08/2024,west 
+bbed0c20-8fe6-4c08-ba10-0464b7567847,Carl Moore,TABLET,,$173,02/08/2024,south 
+85c68336-9177-4074-939e-a51dec3cb714,Ryan Harrington,TABLET,,131,28/07/2024,EAST
+0121d08b-b639-4519-9360-8e919b0a739c,Gina Banks,Laptop,-4.0,147.0,06/06/2024,west 
+5cbca593-e412-4dec-8bed-a2f83774e4f1,William Travis,LapTop,1.0,$166,2024-02-26,West
+76e73fcc-4337-4b24-91ca-428d4fa5eb19,Keith Carter,Laptop ,-5.0,426.0,03-31-2024,east 
+9c4ab30a-6374-4b75-b9df-4bfec710c7a6,Linda Mckinney,Laptop,,66.0,22/01/2024,west 
+0723cbd9-33d7-4f94-b01b-3289688cec5c,Betty Anderson,TABLET,,254.0,25/01/2024,north 
+8a279289-0087-4d74-a8a4-ccd7e8b08add,John Burke,Tablet,,249.0,2024-04-27,North
+bca3b088-9e29-4ab2-a13a-798f54d708c2,Brandon Short,Tablet,-3.0,400.0,23/01/2024,south 
+94cc574b-0ddd-421f-9662-f47ee1e311ff,Bryan Hopkins,LapTop,,96.0,08-02-2024,west 
+d186ae10-b1f0-48f2-a3a9-c9106ebd4eb2,Kim Cooper,Tablet,4.0,$89,11-18-2024,west 
+7815230e-61da-40ae-abc4-89cf8e8038f5,Cynthia Rich,Laptop ,,269.0,2024-04-05,EAST
+fab86cca-0598-4bca-b229-979d5dfd758e,Ryan Dunn,Tablet ,6.0,126.0,07-15-2024,East
+df293035-020d-4df4-9783-109b63ca633b,Amber Brady,Laptop ,3.0,320,12/06/2024,north 
+1899a1e0-d8da-45b8-8342-651917a172bc,Kyle Byrd,Tablet ,-3.0,$471,2024-03-31,WEST
+b20e3522-43f7-4ff8-afab-69121d7f18c6,Dawn Johnston,Laptop,,$188,07-20-2024,EAST
+48dd31eb-5282-46a8-a8b2-b447be194134,Steven Clark,Laptop ,,$162,10/05/2024,South
+3e6ea67d-781d-49f1-98e8-3afd1e7ee078,Kelsey Murphy,LapTop,,293,21/04/2024,east 
+14c19ad4-50e9-404b-b1d5-1142be1ad5ff,Vanessa Mendoza,TABLET,3.0,$360,2024-10-14,East
+49f9dc43-f703-4de4-a87f-96915db513ed,Mia Benton,LapTop,-3.0,200,22/05/2024,East
+004ce647-0b78-406d-a1ed-0172aebbbcf5,Mr. Jason Good,Laptop ,0.0,298,07/08/2024,SOUTH
+c9ee33b3-9650-48da-be63-5433b922a2eb,Corey Garner,LapTop,7.0,478,2024-08-16,North
+ba0c1ac1-fb71-44b0-a76b-d6b322641f0d,Brian Cherry,Laptop ,0.0,475,09-15-2024,south 
+5a96d15b-3432-420d-913d-d24d04325be3,Brett Thompson,Laptop,2.0,304.0,2024-09-14,south 
+5c46e5bb-198a-4f4d-a22d-6cf066f93ecd,Chelsey Romero,TABLET,1.0,$293,04-07-2024,south 
+25d7711d-2932-41e1-8679-6d9578666866,Sara Peters,TABLET,,479.0,2024-07-23,West
+076be842-4974-4b14-9263-84e4268aa6bd,Stephanie Oneill,Laptop,-4.0,260.0,04-07-2024,EAST
+f236da6d-84b7-485e-bc62-c491829140ee,Eric Spears,laptop,,309.0,12/08/2024,South
+5eedd5c2-7b89-455e-bc7c-d77af2f9ba8f,Courtney Dodson,Tablet ,-5.0,468.0,01-08-2024,north 
+a84f24a8-ff1e-4fd1-88ac-ffecd292cf80,Raymond Smith,LapTop,-4.0,300.0,14/07/2024,East
+99022f4f-30f0-4530-8585-266c45fbb4ad,Michelle Obrien,Laptop,,373.0,15/01/2024,north 
+b32c4ed2-5830-4085-b60e-41a042bb9a82,John Johnson,laptop,4.0,173.0,2024-10-03,NORTH
+e434087a-6f97-4cef-8871-2974eb6b5476,Marisa Patton,TABLET,-1.0,407,2024-04-28,NORTH
+7baec9cf-9e41-4aa1-9a73-1ea9260c92c7,Justin Mcdowell,Laptop,0.0,$251,25/03/2024,South
+4c41f044-2f2a-42c2-ae42-36206f3db711,David Beck,Laptop ,10.0,$493,2024-05-01,east 
+a1c624cd-d425-4fb6-815b-78ae389a69e2,Sandra Davis,Laptop ,10.0,379,29/05/2024,west 
+4c52508a-694b-4a01-a4a3-0d85f036cb5f,Lauren Johnson,Tablet,,344,05-31-2024,West
+1bc46a84-7564-4380-ab1d-832d7a371ef4,Jordan Coleman,LapTop,,346,06-05-2024,NORTH
+e6eb5efe-e0d7-4f8a-928f-94a17c1bb735,Cynthia Poole,laptop,1.0,$110,10/07/2024,EAST
+7c46af09-ff18-456d-8d04-7cc1582639ba,Brady Sosa,LapTop,-2.0,304,14/04/2024,north 
+48c80378-9576-42bb-8c58-79a9b13e01bd,Michael Kelly,Tablet ,,154,2024-03-11,north 
