@@ -1,0 +1,150 @@
+{
+    "name": "pipeline1",
+    "properties": {
+        "activities": [
+            {
+                "name": "ingestion",
+                "type": "Copy",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "source": {
+                        "type": "DelimitedTextSource",
+                        "storeSettings": {
+                            "type": "AzureBlobFSReadSettings",
+                            "recursive": true,
+                            "enablePartitionDiscovery": false
+                        },
+                        "formatSettings": {
+                            "type": "DelimitedTextReadSettings"
+                        }
+                    },
+                    "sink": {
+                        "type": "DelimitedTextSink",
+                        "storeSettings": {
+                            "type": "AzureBlobFSWriteSettings"
+                        },
+                        "formatSettings": {
+                            "type": "DelimitedTextWriteSettings",
+                            "quoteAllText": true,
+                            "fileExtension": ".txt"
+                        }
+                    },
+                    "enableStaging": false,
+                    "translator": {
+                        "type": "TabularTranslator",
+                        "typeConversion": true,
+                        "typeConversionSettings": {
+                            "allowDataTruncation": true,
+                            "treatBooleanAsNumber": false
+                        }
+                    }
+                },
+                "inputs": [
+                    {
+                        "referenceName": "ds_ingestionsource",
+                        "type": "DatasetReference",
+                        "parameters": {
+                            "srcTable": {
+                                "value": "@pipeline().parameters.pipelineTable",
+                                "type": "Expression"
+                            },
+                            "srcFolder": {
+                                "value": "@pipeline().parameters.pipelineFolder",
+                                "type": "Expression"
+                            }
+                        }
+                    }
+                ],
+                "outputs": [
+                    {
+                        "referenceName": "ds_ingestionsink",
+                        "type": "DatasetReference",
+                        "parameters": {
+                            "targetFolder": {
+                                "value": "@pipeline().parameters.pipelineFolder",
+                                "type": "Expression"
+                            },
+                            "targetTable": {
+                                "value": "@pipeline().parameters.pipelineTable",
+                                "type": "Expression"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "curated",
+                "type": "DatabricksNotebook",
+                "dependsOn": [
+                    {
+                        "activity": "ingestion",
+                        "dependencyConditions": [
+                            "Completed"
+                        ]
+                    }
+                ],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "notebookPath": "/Users/adusumillideepa09@gmail.com/curated"
+                },
+                "linkedServiceName": {
+                    "referenceName": "ls_databricks_curated",
+                    "type": "LinkedServiceReference"
+                }
+            },
+            {
+                "name": "staging",
+                "type": "DatabricksNotebook",
+                "dependsOn": [
+                    {
+                        "activity": "curated",
+                        "dependencyConditions": [
+                            "Completed"
+                        ]
+                    }
+                ],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "notebookPath": "/Users/adusumillideepa09@gmail.com/staging"
+                },
+                "linkedServiceName": {
+                    "referenceName": "ls_databricks_staging",
+                    "type": "LinkedServiceReference"
+                }
+            }
+        ],
+        "parameters": {
+            "pipelineTable": {
+                "type": "string"
+            },
+            "pipelineFolder": {
+                "type": "string"
+            }
+        },
+        "annotations": [],
+        "lastPublishTime": "2024-12-02T23:20:27Z"
+    },
+    "type": "Microsoft.DataFactory/factories/pipelines"
+}
